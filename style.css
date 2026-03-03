@@ -23,6 +23,10 @@ div {
     margin: 10px auto;
 }
 
+.navbar {
+    width: 1200px;
+}
+
 h1.home {
     width: 280px;
 }
@@ -31,7 +35,18 @@ h1.tofudoner {
     width: 10.6em;
 }
 
-h1.rockyroad{
+h2 {
+    width: 10.6em;
+    text-align: center;
+}
+
+.methodheader,
+.ingredientsheader {
+    width: 10em;
+    text-align: center;
+}
+
+h1.rockyroad {
     width: 7em;
 }
 
@@ -49,6 +64,9 @@ h1.macncheese {
     height: 100em;
     width: 1200px;
 }
+
+
+/* LISTS */
 
 .recipe_link_list {
     margin-top: 2em;
@@ -68,6 +86,9 @@ ol {
     list-style-position: inside;
 }
 
+
+/* LINKS */
+
 a:visited {
     color: #3B1FA6;
 }
@@ -78,6 +99,7 @@ a {
 
 .homelink {
     color: black;
+    font-weight: 800;
 }
 
 .homelink:visited {
@@ -89,9 +111,29 @@ a:hover {
     color: #09B4EB;
 }
 
+
+/* IMAGES */
+
 img.tofudoner,
 img.rockyroad,
 img.macncheese {
     width: 400px;
     height: auto;
+    display:block;
+    margin:auto;
+    background-color: rgb(232, 161, 12);
+    border: 5px double black;
+    padding: 10px 10px;
+}
+
+img.macncheese {
+    padding-bottom: 40px;
+}
+
+.creditline {
+    background-color: unset;
+    border: 0px;
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 20px
 }
