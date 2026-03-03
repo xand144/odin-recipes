@@ -26,6 +26,7 @@ The aim of this project is to practise the basic HTML knowledge that I have acqu
 
 - ~~centre headings~~
 - style and position images
+- set image sizes
 - make the home button look nice
 - give each text element a uniform background
 - ~~give the links, ingredients, and method lists different list markers~~
