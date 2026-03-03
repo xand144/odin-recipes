@@ -3,14 +3,23 @@
 * {
     box-sizing: border-box;
     font-family: 'Courier New', monospace;
-    background-color: #EBEBCE;
 }
 
 *:not(a) {
     color: black;
 }
 
-h1 {
+body {
+    background-color: #EBEBCE;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+#tagline {
     background-color: rgb(232, 161, 12);
     border: 5px double black;
     padding: 5px 10px;
@@ -33,6 +42,15 @@ h1.macncheese {
     width: 12.35em;
 }
 
-li {
+.recipe_link_list li {
+    list-style-type: '> ';
+}
+
+ul {
     list-style-type: square;
+}
+
+ul,
+ol {
+    list-style-position: inside;
 }

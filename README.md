@@ -21,3 +21,11 @@ The aim of this project is to practise the basic HTML knowledge that I have acqu
 - Tofu Doner Kebab: Derived from https://atinybitvegan.com/vegan-tofu-doner-kebab/
 - Rocky Road: My mum's recipe &lt;3
 - Macaroni & Cheese: taken from https://www.allrecipes.com/recipe/238691/simple-macaroni-and-cheese/ (after haphazardly converting some of the units to metric)
+
+## To-Do
+
+- ~~centre headings~~
+- style and position images
+- make the home button look nice
+- give each text element a uniform background
+- ~~give the links, ingredients, and method lists different list markers~~
