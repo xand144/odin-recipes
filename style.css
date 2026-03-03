@@ -68,6 +68,27 @@ ol {
     list-style-position: inside;
 }
 
+a:visited {
+    color: #3B1FA6;
+}
+
+a {
+    color: #0020B3;   
+}
+
+.homelink {
+    color: black;
+}
+
+.homelink:visited {
+    color: unset;
+}
+
+.homelink:hover,
+a:hover {
+    color: #09B4EB;
+}
+
 img.tofudoner,
 img.rockyroad,
 img.macncheese {
