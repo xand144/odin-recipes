@@ -16,10 +16,7 @@ h1,
 h2,
 h3,
 p,
-ul,
-ol,
-div,
-#tagline {
+div {
     background-color: rgb(232, 161, 12);
     border: 5px double black;
     padding: 5px 10px;
@@ -42,8 +39,24 @@ h1.macncheese {
     width: 12.35em;
 }
 
+#tagline {
+    display: block;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+.home.main {
+    height: 100em;
+    width: 1200px;
+}
+
+.recipe_link_list {
+    margin-top: 2em;
+}
+
 .recipe_link_list li {
     list-style-type: '> ';
+    margin: 10px 0px;
 }
 
 ul {
@@ -54,8 +67,6 @@ ul,
 ol {
     list-style-position: inside;
 }
-
-/* images */
 
 img.tofudoner,
 img.rockyroad,
