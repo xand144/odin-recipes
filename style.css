@@ -1,3 +1,5 @@
+/* universal properties */
+
 * {
     box-sizing: border-box;
     font-family: 'Courier New', monospace;
@@ -8,14 +10,29 @@
     color: black;
 }
 
-.home_h1_top {
+h1 {
     background-color: rgb(232, 161, 12);
     border: 5px double black;
     padding: 5px 10px;
-    width: 280px;
-    margin: auto;
+    margin: 10px auto;
 }
 
-.recipe_link_list {
+h1.home {
+    width: 280px;
+}
+
+h1.tofudoner {
+    width: 10.6em;
+}
+
+h1.rockyroad{
+    width: 7em;
+}
+
+h1.macncheese {
+    width: 12.35em;
+}
+
+li {
     list-style-type: square;
 }
